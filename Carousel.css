@@ -1,0 +1,49 @@
+/* In your CSS file (e.g., Carousel.css) */
+
+/* Custom styles for carousel images */
+.custom-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styles for carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 50%; /* Make buttons circular */
+  font-size: 24px; /* Adjust the font size */
+  width: 40px; /* Adjust button width */
+  height: 40px; /* Adjust button height */
+  line-height: 1; /* Center the icon vertically */
+  transition: background-color 0.3s; /* Add a transition effect */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* Adjust the arrow icon styles (Bootstrap 5 uses font-based icons) */
+  font-size: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Adjust spacing between the buttons */
+.carousel-control-prev {
+  margin-left: -20px;
+}
+
+.carousel-control-next {
+  margin-right: -20px;
+}
